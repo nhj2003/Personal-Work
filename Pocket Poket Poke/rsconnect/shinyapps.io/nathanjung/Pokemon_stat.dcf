@@ -1,0 +1,12 @@
+name: Pokemon_stat
+title: Pokemon_stat
+username: nathanjung
+account: nathanjung
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13048958
+bundleId: 9235925
+url: https://nathanjung.shinyapps.io/Pokemon_stat/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

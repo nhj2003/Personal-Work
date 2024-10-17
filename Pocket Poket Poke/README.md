@@ -7,3 +7,7 @@ Otherwise this was a fun project to work on on a subject I really quite like. Su
 didn't really reveal how badly powercreep has gotten in modern pokemon. It truly does feel that most of the powercreep has come in the form of new moves
 or new abilities. It might be interesting to do another data visualization project on the power of moves, or perhaps do one on recent tournament wins and
 the collective base power of moves within the tournament. Perhaps something along those lines.
+
+
+Finished app is here:
+https://nathanjung.shinyapps.io/Pokemon_stat/

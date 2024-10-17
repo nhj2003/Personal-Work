@@ -11,7 +11,7 @@ font_add('Pokemon', 'www/pokemon-ds-font.ttf')
 showtext_auto()
 
 # DATA
-poke <- read.csv('data/Pokemon.csv')
+poke <- read.csv('Data/pokemon.csv')
 poke <- poke %>% 
   rename('Sp. Attack' = Sp..Atk,
          'Sp. Defense' = Sp..Def)
@@ -19,10 +19,10 @@ poke <- poke %>%
 # Lists containing information on whether a pokemon is a pseudo_legendary, sub_legendary, 
 # legendary, or mythical
 # Pseudo-legendary is small enough that I can just type it out
-pseudo <- read.csv('data/pseudolist.csv')[['X0']]
-sub_leg <- read.csv('data/sub_leglist.csv')[['X0']]
-leg <- read.csv('data/leglist.csv')[['X0']]
-mythical <- read.csv('data/mythicallist.csv')[['X0']]
+pseudo <- read.csv('Data/pseudolist.csv')[['X0']]
+sub_leg <- read.csv('Data/sub_leglist.csv')[['X0']]
+leg <- read.csv('Data/leglist.csv')[['X0']]
+mythical <- read.csv('Data/mythicallist.csv')[['X0']]
 
 # Data used in this project enclosed within two links
 url1 <- a('pokemondb.net,', href = 'https://pokemondb.net/pokedex/all')
