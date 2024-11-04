@@ -11,4 +11,4 @@ The folders represent the individual projects I have worked on.
 <b>Power BI - Spending Habits:</b> Investigative visualization looking into a particular spending dataset on Kaggle. <br>
 
 <h2>Rstudio</h2>
-<b>RStudio Shiny - Pokemon Viz</b> Investigative visualization looking into Pokemon stat inflation and how it has changed over the generations. <br>
+<b>RStudio Shiny - Pokemon Viz:</b> Investigative visualization looking into Pokemon stat inflation and how it has changed over the generations. <br>
