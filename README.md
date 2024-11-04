@@ -10,7 +10,7 @@ The folders represent the individual projects I have worked on.
 
 <h2>Power BI</h2>
 <ul>
-<li><b>Power BI - E-Commerce Sales:</b> Visualization emulating a sales report visualization to be given during a presentation.</li> <br>
+<li><b>Power BI - E-Commerce Sales:</b> Emulation of a sales report visualization to be given during a presentation.</li> <br>
 <li><b>Power BI - Spending Habits:</b> Investigative visualization looking into a particular spending dataset on Kaggle.</li> <br>
 </ul>
 
