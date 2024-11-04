@@ -1,0 +1,39 @@
+# DATA
+poke <- read.csv('data/Pokemon.csv')
+View(poke)
+# Running shiny app
+shinyApp(ui = ui, server = server)
+library(tidyverse)
+# DATA
+poke <- read.csv('data/Pokemon.csv')
+# Data used in this project enclosed within two links
+url1 <- a('1', href = 'https://pokemondb.net/pokedex/all')
+url2 <- a('2', href = 'https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon')
+ui <- fluidPage(
+titlePanel('Pokemon Stats Data Over the Generations')
+)
+server <- function(input, output, session) {
+# Main Panel Tab
+output$tab <- renderUI({
+taglist('The data (', url1, url2, ') used in this application is thanks to Pokemondb.net and Wikipedia.org')
+})
+}
+# Running shiny app
+shinyApp(ui = ui, server = server)
+library(shiny)
+detach("package:shiny", unload = TRUE)
+library(shiny)
+library(shinydashboard)
+detach("package:shiny", unload = TRUE)
+detach("package:shinydashboard", unload = TRUE)
+ui <- fluidPage(
+titlePanel('Pokemon Stats Data Over the Generations')
+#Displaying tab
+uiOutput('tab')
+ui <- fluidPage(
+titlePanel('Pokemon Stats Data Over the Generations'),
+# Displaying tab
+uiOutput('tab')
+)
+# Running shiny app
+shinyApp(ui = ui, server = server)
